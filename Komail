@@ -151,7 +151,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97m🗝 \x1b[1;91mTool Password  \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:Rana
+            print "Logged in successfully as " + username #Dev:Komail
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -281,7 +281,7 @@ def pilih():
         elif unikers =="3":
 		hack()
         elif unikers =="4":
-		black()
+		White()
         elif unikers =="5":
 		Tiger()
         elif unikers =="6":
